@@ -1,0 +1,20 @@
+.submenuitem {
+  cursor: pointer;
+  font-size: .8em;  
+  border-bottom: solid lightgray 1px;
+
+  max-width: 100%;
+  margin: 0 10px 0 70px;
+  padding: 10px 0 10px 5px;
+}
+
+.submenuitem:hover {
+  /* background-color: #01a6af;
+  color: white; */
+  border-bottom: solid #01a6af 1px;
+}
+
+.isSubmenuClicked {
+  color: #01a6af;
+  border-bottom: solid #01a6af 1px;
+}

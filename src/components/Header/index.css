@@ -1,0 +1,30 @@
+.page_landing_header {
+  /* background-color: lightblue; */
+  position: relative;
+
+  height: 100px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.page_landing_header_icon {
+  position: absolute;
+  color: #9c9c9c;
+
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+.page_landing_header_icon:hover {
+  cursor: pointer;
+}
+
+.page_landing_header_logo {
+
+}
+
