@@ -1,0 +1,34 @@
+.description_card {
+  /* box-shadow: 2px 2px 5px black; */
+  
+  padding: 20px;
+  max-width: 100%;
+  height: 100%;
+}
+
+.description_card_logo {
+  margin-bottom: 15px;
+  width: 70px;
+  height: 70px;
+}
+.isMouseEnter {
+  color: blue;
+  transition-duration: .3s;
+  transform: scaleX(1.05);
+}
+
+.description_card_logo:hover {
+  cursor: pointer;
+  transition-duration: 1s;
+  transform: rotateZ(360deg) scale(1.1, 1.1);
+}
+
+.description_card_title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  
+}
+
+.description_card_description {
+  text-align: center;
+}

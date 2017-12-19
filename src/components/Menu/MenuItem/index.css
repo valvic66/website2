@@ -1,3 +1,13 @@
+.menuitem {
+  cursor: pointer;
+  font-size: .8em;
+
+  padding: 5px 0;
+}
+.menuitem:hover {
+  color: #01a6af;
+}
+
 .isMenuClicked {
   color: #01a6af;
 }

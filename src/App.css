@@ -1,1 +1,17 @@
+.collapsable_div {
+  display: flex;
+  justify-content: center;
+}
 
+.collapsable_button {
+  background-color: white;
+  border: solid lightcoral 2px;
+  border-radius: 5px;
+  
+  margin-top: 25px;
+  padding: 2px 6px;
+}
+
+.main_image {
+
+}

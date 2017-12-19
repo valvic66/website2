@@ -7,7 +7,7 @@ import MenuGroup from './MenuGroup'
 
 export default class Menu extends Component {
   getDefaultCSSClasses = () => {
-    const classes = [this.props.classes || 'menu']
+    const classes = [this.props.classes || 'menu container-fluid']
     return classes.join (' ')
   }
 

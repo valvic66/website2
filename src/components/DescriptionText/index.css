@@ -1,0 +1,27 @@
+.description_text_container {
+  margin-bottom: 30px;
+}
+
+.description {
+  margin-top: 30px;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+
+  /* text-align: center; */
+}
+
+.description_title {
+  color: blue;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+  padding-bottom: 15px;
+
+  text-align: center;
+}
+
+.description_description {
+  font-size: 18px;
+}
