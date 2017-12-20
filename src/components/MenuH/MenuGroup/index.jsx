@@ -108,11 +108,11 @@ export default class MenuGroup extends React.Component {
           {this.renderLogo(submenuitem_names)}
         </div>
 
-        <Collapse isOpen={this.state.isSubmenuOpen}>
           <div className='submenu_group'>
-            {this.renderSubmenuGroup(submenuitem_names)}
+            <Collapse isOpen={this.state.isSubmenuOpen}>
+              {this.renderSubmenuGroup(submenuitem_names)}
+            </Collapse>
           </div>  
-        </Collapse>
       </div>  
     )
   }

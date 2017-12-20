@@ -1,4 +1,4 @@
-.menu_row {
+.menu_rowL {
   border-bottom: solid lightgray 1px;
   
   max-width: 100%;
@@ -10,11 +10,12 @@
   align-items: center;
 }
 
-.menu_group {}
+.menu_groupL {
+}
 
-.submenu_group {}
+.submenu_groupL {}
 
-.defaultLogoCSSClasses {
+.defaultLogoCSSClassesL {
   cursor: pointer;
   padding: 5px;
 }

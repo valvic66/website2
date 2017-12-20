@@ -1,0 +1,23 @@
+.menu_row {
+  padding: 5px 30px;
+
+  display: flex;
+  align-items: center;
+}
+
+.menu_group {}
+
+.submenu_group {
+  position: absolute;
+  background-color: aliceblue;
+  margin-left: 30px;
+  padding: 0 10px;
+}
+
+.defaultLogoCSSClasses {
+  cursor: pointer;
+  padding: 5px;
+}
+
+
+

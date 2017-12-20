@@ -12,19 +12,31 @@
 }
 
 .page_landing_header_icon {
-  position: absolute;
-  color: #9c9c9c;
-
-  left: 15px;
-  top: 50%;
-  transform: translateY(-50%);
-  
+  display: none;
 }
 .page_landing_header_icon:hover {
   cursor: pointer;
 }
 
 .page_landing_header_logo {
-
+  animation-name: logo_slider;
+  animation-duration: .3s;
+  animation-fill-mode: both;
+  animation-delay: .1s;
+}
+@keyframes logo_slider {
+  from {transform: translateY(-100px);}
+  to {transform: translateY(0);}
 }
 
+@media screen and (max-width: 1024px) {
+  .page_landing_header_icon {
+    display: flex;
+    position: absolute;
+    color: #9c9c9c;
+    
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

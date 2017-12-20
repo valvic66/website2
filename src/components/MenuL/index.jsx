@@ -5,9 +5,9 @@ import {Collapse} from 'reactstrap'
 import MenuGroup from './MenuGroup'
 
 
-export default class Menu extends Component {
+export default class MenuL extends Component {
   getDefaultCSSClasses = () => {
-    const classes = [this.props.classes || 'menu container-fluid']
+    const classes = [this.props.classes || 'menuL container-fluid']
     return classes.join (' ')
   }
 

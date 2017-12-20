@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import './App.css'
 
 import Header from './components/Header'
-import Menu from './components/Menu'
+import MenuL from './components/MenuL'
+import MenuH from './components/MenuH'
+
 import DescriptionText from './components/DescriptionText'
 import DescriptionCard from './components/DescriptionCard'
 
@@ -37,12 +39,15 @@ class App extends Component {
           classes='page_landing_header'
           toggle={() => this.handleToggle()}
         />
-        <Menu
+        <MenuL
           isOpen={isOpen}
           menu_data={menu_data}
         />
+        <MenuH
+          menu_data={menu_data}
+        />
 
-      <div className="container">
+      <div className="container main_image">
         <img src="main_image.png" alt="main_image" className='img-fluid' />
       </div> 
    

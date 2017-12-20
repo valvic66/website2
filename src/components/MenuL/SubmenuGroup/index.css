@@ -1,4 +1,4 @@
-.submenuitem {
+.submenuitemL {
   cursor: pointer;
   font-size: .8em;  
   border-bottom: solid lightgray 1px;
@@ -8,13 +8,13 @@
   padding: 10px 0 10px 5px;
 }
 
-.submenuitem:hover {
+.submenuitemL:hover {
   /* background-color: #01a6af;
   color: white; */
   border-bottom: solid #01a6af 1px;
 }
 
-.isSubmenuClicked {
+.isSubmenuClickedL {
   color: #01a6af;
   border-bottom: solid #01a6af 1px;
 }
